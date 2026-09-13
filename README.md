@@ -47,7 +47,12 @@
 
 ## 🏗️ System Architecture & Data Flow
 
-### 1. High-Level Application Flow
+### 1. High-Level System Architecture & Sequential Request Flow
+
+![Ivy Homes System Architecture Animation](public/assets/system_architecture.svg)
+
+<details>
+<summary><b>📐 Click to toggle Mermaid Sequence & Architecture Diagram</b></summary>
 
 ```mermaid
 flowchart TD
@@ -79,6 +84,8 @@ flowchart TD
     APIClient -- "Rentals Crawl" --> RentalsEP
     APIClient -- "Unit Normalization (Lakhs/Cr)" --> ProjectsEP
 ```
+
+</details>
 
 ---
 
