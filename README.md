@@ -150,43 +150,31 @@ flowchart LR
 * **Smart Filtering**: Locality search, BHK count (1, 2, 3, 4+ BHK), price range, furnishing, and a *"Hide Corrupt Records"* toggle.
 
 <div align="center">
-  <img src="public/assets/hero_skyline.jpg" alt="Listings Browser Banner" width="100%" style="border-radius: 16px; margin: 12px 0;" />
-  <p><em>Executive Hero Banner featuring Pune Metropolitan Region skyline</em></p>
+  <img src="public/assets/app_listings.png" alt="Listings Browser View" width="100%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 12px 0;" />
+  <p><em>Executive Property Listings Browser with Pune Hero Banner & Filter Sidebar</em></p>
 </div>
 
 ---
 
-### 2. High-Resolution Property Details (`/listings/:id`)
-* **Feature**: Accessible via direct URL routes (`/listings/DWE-3002501`).
-* **Attributes**: Formatted prices in Indian Rupees (`₹ 1.45 Cr` / `₹ 85 Lakhs`), floor level, carpet area, verified badge, seller contact details, and location coordinates.
-
-<div align="center">
-  <img src="public/assets/hero_apartment.jpg" alt="Listing Detail Image" width="100%" style="border-radius: 16px; margin: 12px 0;" />
-  <p><em>High-resolution architectural photography for property cards and detail views</em></p>
-</div>
-
----
-
-### 3. Favourites & Saved Listings (`/saved`)
-* **Feature**: Add/remove saved listings with optimistic UI updates.
-* **Server Sync**: Synced with backend API at `/v1/saved` using `{ listing_id: "..." }` payload format. Persists across page reloads and re-logins.
-
----
-
-### 4. Rentals & Projects Browser (`/rentals-projects`)
+### 2. Rentals & Builder Projects Browser (`/rentals-projects`)
 * **Rentals Tab**: Monthly rent (`₹ 31,600 / mo`), security deposit, and locality metrics.
 * **Projects Tab**: Builder projects with **price unit normalization** (converting raw Lakhs/Crores values into proper INR format).
 
 <div align="center">
-  <img src="public/assets/hero_villa.jpg" alt="Projects & Villas" width="100%" style="border-radius: 16px; margin: 12px 0;" />
-  <p><em>Luxury villas and builder project showcases with normalized pricing</em></p>
+  <img src="public/assets/app_rentals.png" alt="Rentals & Projects View" width="100%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 12px 0;" />
+  <p><em>Verified Rental Properties Showcase with Monthly Rent & Deposit Indicators</em></p>
 </div>
 
 ---
 
-### 5. Insights & Documentation Findings Screen (`/insights`)
+### 3. Insights & Documentation Findings Screen (`/insights`)
 * **Feature**: Real-time client-calculated city analytics and interactive documentation discrepancy inspector.
 * **Discrepancy Viewer**: Displays documented claims, actual server behavior, impact, how found, and evidence IDs for all 13 documentation lies.
+
+<div align="center">
+  <img src="public/assets/app_insights.png" alt="Insights & Findings View" width="100%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 12px 0;" />
+  <p><em>Pune Data Insights Dashboard & Interactive Documentation Lies Inspector</em></p>
+</div>
 
 ---
 
@@ -221,7 +209,7 @@ All 13 documentation discrepancies compiled into [`submission.json`](submission.
 3. **`auth` (Mandatory Bearer Token)**: All `/v1/*` endpoints return `401 missing bearer token` unless `Authorization: Bearer <access_token>` is attached.
 4. **`pagination` (Offset & Limit Cap)**: Documented 1-indexed `page` and `limit` max 200. Server uses 0-indexed `offset` and caps `limit` at 50 max.
 5. **`missing_endpoint` (Favourites Path & Field Name)**: `/v1/favourites` returns 404. Working path is `/v1/saved` and requires payload field `listing_id` (`id` returns `422 Unprocessable Entity`).
-6. **`missing_endpoint` (Singular Detail Path)**: `/v1/listing/{id}` returns 404. Correct path is plural `/v1/listings/{id}`.
+6. **`missing_endpoint` (Singular Detail Path)**: `/v1/listing/{id}` returns 404. Correct path is plural GET `/v1/listings/{id}`.
 7. **`missing_endpoint` (Analytics Summary)**: `/v1/analytics/summary` returns `404 Not Found`.
 8. **`missing_endpoint` (llms.txt v2 Endpoints)**: `/llms.txt` documents `/v2/listings` which returns `404: there is no /v2; llms.txt announced it early.`
 9. **`units` (Project Price Units)**: Documented in Rupees. Actual values are returned in Lakhs (`<10000`) and Crores (`<100`).
