@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="public/assets/logo.jpg" alt="Ivy Homes Logo" width="120" style="border-radius: 24px; box-shadow: 0 8px 24px rgba(16, 185, 129, 0.4);" />
+  
 
   # 🌿 Ivy Homes — Pune Property Portal & Analytics Engine
 
