@@ -8,23 +8,34 @@
   
   *A production-grade, executive real estate application built on top of an unreviewed property API, featuring a resilient React 18 + Vite frontend, automated data quality auditing engine, and detailed API documentation discrepancy analysis.*
 
+  [![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-10B981?style=for-the-badge&logo=vercel)](https://ivyhomes-ten.vercel.app/listings)
   [![React](https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
   [![Vite](https://img.shields.io/badge/Vite-5.1-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
   [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
   [![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-Enabled-000000?style=for-the-badge&logo=shadcnui&logoColor=white)](https://ui.shadcn.com/)
   [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-  [![Build Status](https://img.shields.io/badge/Build-Passing-10B981?style=for-the-badge)](https://solve.ivy.homes)
 
 </div>
 
 ---
 
-## 📌 Metadata & Key Credentials
+## 🌐 Live Web Application Deployment
+
+> [!TIP]
+> **Live Deployed Web App**: [https://ivyhomes-ten.vercel.app/listings](https://ivyhomes-ten.vercel.app/listings)
+> 
+> Open the deployed link above to test the application live on Vercel!
+
+---
+
+## 📌 Assignment Metadata & Key Credentials
 
 | Metadata Item | Value / Assigned Detail |
 | --- | --- |
 | **Candidate Name** | Suyash |
-| **College Email** | `suyash.20238026@mnnit.ac.in` |
+| **College Email** | `suyash@mnnit.ac.in` |
+| **Live Deployed Web App** | [https://ivyhomes-ten.vercel.app/listings](https://ivyhomes-ten.vercel.app/listings) |
+| **GitHub Repository** | [https://github.com/Suyashjain099/ivy-Homes](https://github.com/Suyashjain099/ivy-Homes) |
 | **Assigned City** | **Pune** |
 | **Assigned Locality** | **Magarpatta** *(used for Question 5: Total Monthly Rent)* |
 | **API Key** | `IVY26-6814CC79648F` |
