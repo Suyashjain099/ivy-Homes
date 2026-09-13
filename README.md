@@ -50,7 +50,7 @@
 ### 1. High-Level System Architecture & Sequential Request Flow
 
 <div align="center">
-  <img src="public/assets/system_architecture.svg" alt="Ivy Homes System Architecture Animation" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
+  <img src="https://raw.githubusercontent.com/Suyashjain099/ivy-Homes/main/public/assets/system_architecture.svg" alt="Ivy Homes System Architecture Animation" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
   <p><em>Sequential Request Flow Architecture: Client UI → Resilience Layer → Normalization Engine → REST Gateway → Analytics</em></p>
 </div>
 
@@ -171,7 +171,7 @@ flowchart LR
 * **Smart Filtering**: Locality search, BHK count (1, 2, 3, 4+ BHK), price range, furnishing, and a *"Hide Corrupt Records"* toggle.
 
 <div align="center">
-  <img src="public/assets/app_listings.png" alt="Listings Browser View" width="100%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 12px 0;" />
+  <img src="https://raw.githubusercontent.com/Suyashjain099/ivy-Homes/main/public/assets/app_listings.png" alt="Listings Browser View" width="100%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 12px 0;" />
   <p><em>Executive Property Listings Browser with Pune Hero Banner & Filter Sidebar</em></p>
 </div>
 
@@ -182,7 +182,7 @@ flowchart LR
 * **Projects Tab**: Builder projects with **price unit normalization** (converting raw Lakhs/Crores values into proper INR format).
 
 <div align="center">
-  <img src="public/assets/app_rentals.png" alt="Rentals & Projects View" width="100%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 12px 0;" />
+  <img src="https://raw.githubusercontent.com/Suyashjain099/ivy-Homes/main/public/assets/app_rentals.png" alt="Rentals & Projects View" width="100%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 12px 0;" />
   <p><em>Verified Rental Properties Showcase with Monthly Rent & Deposit Indicators</em></p>
 </div>
 
@@ -193,7 +193,7 @@ flowchart LR
 * **Discrepancy Viewer**: Displays documented claims, actual server behavior, impact, how found, and evidence IDs for all 13 documentation lies.
 
 <div align="center">
-  <img src="public/assets/app_insights.png" alt="Insights & Findings View" width="100%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 12px 0;" />
+  <img src="https://raw.githubusercontent.com/Suyashjain099/ivy-Homes/main/public/assets/app_insights.png" alt="Insights & Findings View" width="100%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); margin: 12px 0;" />
   <p><em>Pune Data Insights Dashboard & Interactive Documentation Lies Inspector</em></p>
 </div>
 
