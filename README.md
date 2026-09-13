@@ -19,12 +19,12 @@
 
 ---
 
-## 📌 Assignment Metadata & Key Credentials
+## 📌 Metadata & Key Credentials
 
 | Metadata Item | Value / Assigned Detail |
 | --- | --- |
 | **Candidate Name** | Suyash |
-| **College Email** | `suyash@mnnit.ac.in` |
+| **College Email** | `suyash.20238026@mnnit.ac.in` |
 | **Assigned City** | **Pune** |
 | **Assigned Locality** | **Magarpatta** *(used for Question 5: Total Monthly Rent)* |
 | **API Key** | `IVY26-6814CC79648F` |
