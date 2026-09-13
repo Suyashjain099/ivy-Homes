@@ -49,7 +49,10 @@
 
 ### 1. High-Level System Architecture & Sequential Request Flow
 
-![Ivy Homes System Architecture Animation](public/assets/system_architecture.svg)
+<div align="center">
+  <img src="public/assets/system_architecture.svg" alt="Ivy Homes System Architecture Animation" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
+  <p><em>Sequential Request Flow Architecture: Client UI → Resilience Layer → Normalization Engine → REST Gateway → Analytics</em></p>
+</div>
 
 <details>
 <summary><b>📐 Click to toggle Mermaid Sequence & Architecture Diagram</b></summary>
