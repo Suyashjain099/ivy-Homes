@@ -6,7 +6,7 @@
 
   **Software Engineering Internship Assignment (September 2026)**
   
-  *A production-grade, executive real estate application built on top of an unreviewed property API, featuring a resilient React 18 + Vite frontend, automated data quality auditing engine, and detailed API documentation discrepancy analysis.*
+  *A production-grade, executive real estate aplication built on top of an unreviewed property API, featuring a resilient React 18 + Vite frontend, automated data quality auditing engine, and detailed API documentation discrepancy analysis.*
 
   [![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-10B981?style=for-the-badge&logo=vercel)](https://ivyhomes-ten.vercel.app/listings)
   [![Video Demo](https://img.shields.io/badge/Video_Demo-Google_Drive-FF4444?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1HNWCEf32ZIUCxEAJUy0Llzop8tY9wmUP/view?usp=sharing)
