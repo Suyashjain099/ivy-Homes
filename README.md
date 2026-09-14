@@ -22,7 +22,7 @@
 ## 🌐 Live Web Application Deployment
 
 > [!TIP]
-> **Live Deployed Web App**: [https://ivyhomes-ten.vercel.app/listings](https://ivyhomes-ten.vercel.app/listings)
+> **Live Deployed Web App**: [https://ivyhomes-ten.vercel.app/listings](https://ivyhomes-ten.vercel.app)
 > 
 > Open the deployed link above to test the application live on Vercel!
 
