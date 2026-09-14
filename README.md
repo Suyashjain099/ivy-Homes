@@ -9,6 +9,7 @@
   *A production-grade, executive real estate application built on top of an unreviewed property API, featuring a resilient React 18 + Vite frontend, automated data quality auditing engine, and detailed API documentation discrepancy analysis.*
 
   [![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-10B981?style=for-the-badge&logo=vercel)](https://ivyhomes-ten.vercel.app/listings)
+  [![Video Demo](https://img.shields.io/badge/Video_Demo-Google_Drive-FF4444?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1HNWCEf32ZIUCxEAJUy0Llzop8tY9wmUP/view?usp=sharing)
   [![React](https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
   [![Vite](https://img.shields.io/badge/Vite-5.1-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
   [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
@@ -19,12 +20,19 @@
 
 ---
 
-## 🌐 Live Web Application Deployment
+## 🌐 Live Web Application & Video Demonstration
 
 > [!TIP]
-> **Live Deployed Web App**: [https://ivyhomes-ten.vercel.app](https://ivyhomes-ten.vercel.app)
+> **Live Deployed Web App**: [https://ivyhomes-ten.vercel.app/listings](https://ivyhomes-ten.vercel.app/listings)
 > 
-> Open the deployed link above to test the application live on Vercel!
+> **Full Video Demonstration**: [Watch Video on Google Drive](https://drive.google.com/file/d/1HNWCEf32ZIUCxEAJUy0Llzop8tY9wmUP/view?usp=sharing)
+
+<div align="center">
+  <a href="https://drive.google.com/file/d/1HNWCEf32ZIUCxEAJUy0Llzop8tY9wmUP/view?usp=sharing" target="_blank">
+    <img src="https://raw.githubusercontent.com/Suyashjain099/ivy-Homes/main/public/assets/video_demo_thumbnail.png" alt="Ivy Homes Video Demonstration - Click to Play" width="100%" style="border-radius: 16px; border: 2px solid #10B981; box-shadow: 0 8px 32px rgba(16, 185, 129, 0.3); margin: 12px 0;" />
+  </a>
+  <p>▶️ <strong><a href="https://drive.google.com/file/d/1HNWCEf32ZIUCxEAJUy0Llzop8tY9wmUP/view?usp=sharing" target="_blank">Click on the image above or here to watch the full Video Walkthrough on Google Drive</a></strong></p>
+</div>
 
 ---
 
@@ -34,7 +42,8 @@
 | --- | --- |
 | **Candidate Name** | Suyash |
 | **College Email** | `suyash@mnnit.ac.in` |
-| **Live Deployed Web App** | [https://ivyhomes-ten.vercel.app](https://ivyhomes-ten.vercel.app) |
+| **Live Deployed Web App** | [https://ivyhomes-ten.vercel.app/listings](https://ivyhomes-ten.vercel.app/listings) |
+| **Video Demonstration** | [Watch Video on Google Drive](https://drive.google.com/file/d/1HNWCEf32ZIUCxEAJUy0Llzop8tY9wmUP/view?usp=sharing) |
 | **GitHub Repository** | [https://github.com/Suyashjain099/ivy-Homes](https://github.com/Suyashjain099/ivy-Homes) |
 | **Assigned City** | **Pune** |
 | **Assigned Locality** | **Magarpatta** *(used for Question 5: Total Monthly Rent)* |
