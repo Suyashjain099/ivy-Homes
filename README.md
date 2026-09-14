@@ -23,7 +23,7 @@
 ## 🌐 Live Web Application & Video Demonstration
 
 > [!TIP]
-> **Live Deployed Web App**: [https://ivyhomes-ten.vercel.app(https://ivyhomes-ten.vercel.app)
+> **Live Deployed Web App**: [https://ivyhomes-ten.vercel.app(https://ivyhomes-ten.vercel.app)]
 > 
 > **Full Video Demonstration**: [Watch Video on Google Drive](https://drive.google.com/file/d/1HNWCEf32ZIUCxEAJUy0Llzop8tY9wmUP/view?usp=sharing)
 
@@ -41,7 +41,7 @@
 | Metadata Item | Value / Assigned Detail |
 | --- | --- |
 | **Candidate Name** | Suyash |
-| **College Email** | `suyash@mnnit.ac.in` |
+| **College Email** | `suyash.20238026@mnnit.ac.in` |
 | **Live Deployed Web App** | [https://ivyhomes-ten.vercel.app](https://ivyhomes-ten.vercel.app) |
 | **Video Demonstration** | [Watch Video on Google Drive](https://drive.google.com/file/d/1HNWCEf32ZIUCxEAJUy0Llzop8tY9wmUP/view?usp=sharing) |
 | **GitHub Repository** | [https://github.com/Suyashjain099/ivy-Homes](https://github.com/Suyashjain099/ivy-Homes) |
