@@ -34,7 +34,7 @@
 | --- | --- |
 | **Candidate Name** | Suyash |
 | **College Email** | `suyash@mnnit.ac.in` |
-| **Live Deployed Web App** | [https://ivyhomes-ten.vercel.app/listings](https://ivyhomes-ten.vercel.app/listings) |
+| **Live Deployed Web App** | [https://ivyhomes-ten.vercel.app/listings](https://ivyhomes-ten.vercel.app) |
 | **GitHub Repository** | [https://github.com/Suyashjain099/ivy-Homes](https://github.com/Suyashjain099/ivy-Homes) |
 | **Assigned City** | **Pune** |
 | **Assigned Locality** | **Magarpatta** *(used for Question 5: Total Monthly Rent)* |
